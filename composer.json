@@ -1,0 +1,25 @@
+{
+  "name": "mitris/laravel-semantic-ui",
+  "description": "Semantic UI for Laravel 5",
+  "keywords": ["laravel", "form", "semantic", "ui"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Mitris",
+      "email": "mitris.d@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/session": "~5.0",
+    "illuminate/support": "~5.0",
+    "laravelcollective/html": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mitris\\UI\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
